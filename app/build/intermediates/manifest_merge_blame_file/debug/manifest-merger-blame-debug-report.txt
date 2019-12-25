@@ -6,89 +6,51 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-<<<<<<< Updated upstream
-8-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml
+8-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml
+9-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:5:5-21:19
-12        android:allowBackup="true"
-12-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\Anak Didik Mama\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="FoodCourtAmikom"
-16-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:8:9-40
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="com.sobatambyar.foodcourtamikom3.Home" />
-20-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:12:9-51
-20-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:12:19-39
-21        <activity android:name="com.sobatambyar.foodcourtamikom3.Register" />
-21-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:13:9-46
-21-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:13:19-43
-22        <activity android:name="com.sobatambyar.foodcourtamikom3.MainActivity" >
-22-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:14:9-20:20
-22-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:14:19-47
-23            <intent-filter>
-23-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:15:13-19:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:16:17-69
-24-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:16:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:18:17-77
-26-->D:\kantin\AndroidProject\app\src\main\AndroidManifest.xml:18:27-74
-=======
-8-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
-9-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml
-10
-11    <application
-11-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:5:5-21:19
-12        android:allowBackup="true"
-12-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\Blackmine\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="FoodCourtAmikom"
-16-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:8:9-40
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="com.sobatambyar.foodcourtamikom3.Home" />
-20-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:12:9-51
-20-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:12:19-39
-21        <activity android:name="com.sobatambyar.foodcourtamikom3.Register" />
-21-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:13:9-46
-21-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:13:19-43
-22        <activity android:name="com.sobatambyar.foodcourtamikom3.MainActivity" >
-22-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:14:9-20:20
-22-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:14:19-47
-23            <intent-filter>
-23-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:15:13-19:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:16:17-69
-24-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:16:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:18:17-77
-26-->C:\Users\Blackmine\Downloads\Compressed\FoodCourtAmikom3-20191224T155148Z-001\FoodCourtAmikom3\app\src\main\AndroidManifest.xml:18:27-74
->>>>>>> Stashed changes
-27            </intent-filter>
-28        </activity>
-29    </application>
-30
-31</manifest>
+11    <user-permission android:name="android.permission.INTERNET" />
+11-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:7:5-23:19
+14        android:allowBackup="true"
+14-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Anak Didik Mama\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="FoodCourtAmikom"
+18-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:10:9-40
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme" >
+21-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity android:name="com.sobatambyar.foodcourtamikom3.Home" />
+22-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:14:9-51
+22-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:14:19-39
+23        <activity android:name="com.sobatambyar.foodcourtamikom3.Register" />
+23-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:15:9-46
+23-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:15:19-43
+24        <activity android:name="com.sobatambyar.foodcourtamikom3.MainActivity" >
+24-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:16:9-22:20
+24-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:16:19-47
+25            <intent-filter>
+25-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:17:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:18:17-69
+26-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:18:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:20:17-77
+28-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>
