@@ -20,6 +20,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
 
             $index['name'] = $row['name'];
             $index['email'] = $row['email'];
+            $index['id'] = $row['id'];
 
             array_push($result['login'], $index);
 

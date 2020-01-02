@@ -34,11 +34,15 @@ public class MainActivity extends AppCompatActivity {
     private TextView link_regist;
     private ProgressBar loading;
     private static String URL_LOGIN = "http://192.168.1.104/php/login.php";
+    SessionManager sessionManager;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        sessionManager = new SessionManager(this);
+
         loading = findViewById(R.id.loading);
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
@@ -86,6 +90,10 @@ public class MainActivity extends AppCompatActivity {
 
                                     String name = object.getString("name").trim();
                                     String email = object.getString("email").trim();
+                                    String id = object.getString("id").trim();
+
+                                    sessionManager.createSession(name, email, id);
+
                                     Toast.makeText(MainActivity.this, "Success Login. \nYour Name : "
                                             +name+"\nYour Email"
                                             +email, Toast.LENGTH_SHORT).show();
