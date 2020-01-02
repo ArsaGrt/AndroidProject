@@ -6,54 +6,61 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml
+8-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml
-10
-11    <user-permission android:name="android.permission.INTERNET" />
-11-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:5:22-64
-12
-13    <application
-13-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:7:5-24:19
-14        android:allowBackup="true"
-14-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:8:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.1.0] C:\Users\Anak Didik Mama\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:9:9-43
-18        android:label="FoodCourtAmikom"
-18-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:10:9-40
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:12:9-35
-21        android:theme="@style/AppTheme" >
-21-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:13:9-40
-22        <activity android:name="com.sobatambyar.foodcourtamikom3.profile" />
-22-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:14:9-54
-22-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:14:19-42
-23        <activity android:name="com.sobatambyar.foodcourtamikom3.Home" />
-23-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:15:9-42
-23-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:15:19-39
-24        <activity android:name="com.sobatambyar.foodcourtamikom3.Register" />
-24-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:16:9-46
-24-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:16:19-43
-25        <activity android:name="com.sobatambyar.foodcourtamikom3.MainActivity" >
-25-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:17:9-23:20
-25-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:17:19-47
-26            <intent-filter>
-26-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:18:13-22:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:19:17-69
-27-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:19:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:21:17-77
-29-->D:\KULIAH\dokumen negara\semester 5\android studio\AndroidProject\app\src\main\AndroidManifest.xml:21:27-74
-30            </intent-filter>
-31        </activity>
-32    </application>
-33
-34</manifest>
+9-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml
+10    <!-- <user-permission android:name="android.permission.INTERNET" /> -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:5:5-67
+11-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:6:5-79
+12-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <application
+14-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:8:5-26:19
+15        android:allowBackup="true"
+15-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="FoodCourtAmikom"
+19-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:11:9-40
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:14:9-40
+24        <activity android:name="com.sobatambyar.foodcourtamikom3.MenuResto" />
+24-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:15:9-56
+24-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:15:19-44
+25        <activity android:name="com.sobatambyar.foodcourtamikom3.profile" />
+25-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:16:9-45
+25-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:16:19-42
+26        <activity android:name="com.sobatambyar.foodcourtamikom3.Home" />
+26-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:17:9-42
+26-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:17:19-39
+27        <activity android:name="com.sobatambyar.foodcourtamikom3.Register" />
+27-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:18:9-46
+27-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:18:19-43
+28        <activity android:name="com.sobatambyar.foodcourtamikom3.MainActivity" >
+28-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:19:9-25:20
+28-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:19:19-47
+29            <intent-filter>
+29-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:21:17-69
+30-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:23:17-77
+32-->F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>

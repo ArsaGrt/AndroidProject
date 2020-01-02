@@ -160,6 +160,11 @@ attr chipStartPadding
 attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
+attr civ_fill_color
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -1033,6 +1038,7 @@ drawable abc_vector_test
 drawable akunicon
 drawable avd_hide_password
 drawable avd_show_password
+drawable backgroundresto
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1041,6 +1047,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable clip
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1049,6 +1056,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable group2
 drawable homeicon
+drawable ic_account_box_black_24dp
+drawable ic_email_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_logofoodcourt
@@ -1061,6 +1070,7 @@ drawable imagekantin
 drawable imageresto
 drawable keranjangicon
 drawable logofoodcourt
+drawable makanan
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1155,9 +1165,13 @@ id beranda
 id blocking
 id bottom
 id btm_nav
-id btnlogin
+id btn_login
+id btn_logout
+id btn_photo
+id btn_regist
 id buttonPanel
 id cancel_action
+id card1
 id center
 id center_horizontal
 id center_vertical
@@ -1187,6 +1201,7 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id email
 id end
 id end_padder
 id enterAlways
@@ -1215,15 +1230,21 @@ id imageresto
 id info
 id invisible
 id italic
+id item_image
+id item_name
+id item_price
 id item_touch_helper_previous_elevation
 id keranjang
 id labeled
 id largeLabel
+id layout_text
 id left
 id line1
 id line3
+id link_regist
 id listMode
 id list_item
+id loading
 id masked
 id media_actions
 id message
@@ -1232,6 +1253,7 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id name
 id navigation_header_container
 id never
 id none
@@ -1247,15 +1269,18 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+id password
 id pembelian
 id percent
 id pin
+id profile_image
 id progress_circular
 id progress_horizontal
 id radio
 id right
 id right_icon
 id right_side
+id rv
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1318,7 +1343,6 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
-id textregister
 id time
 id title
 id titleDividerNoCustom
@@ -1398,6 +1422,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_home
 layout activity_main
+layout activity_menu_resto
+layout activity_profile
 layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1436,6 +1462,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout rv_menu_items
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2018,6 +2045,7 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color civ_fill_color
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha
