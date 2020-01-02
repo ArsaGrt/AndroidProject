@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -42,33 +42,33 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\cahyaprimadhika\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml
 		INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:5:5-67
-	android:name
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.INTERNET
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:10:22-64
 application
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:8:5-26:19
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:13:5-31:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -84,47 +84,47 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\cahyaprimadhika\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:16:9-40
 	android:roundIcon
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:19:9-40
 activity#com.sobatambyar.foodcourtamikom3.MenuResto
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:15:9-56
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:20:9-56
 	android:name
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:15:19-44
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:20:19-44
 activity#com.sobatambyar.foodcourtamikom3.profile
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:16:9-45
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:21:9-45
 	android:name
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:16:19-42
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:21:19-42
 activity#com.sobatambyar.foodcourtamikom3.Home
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:17:9-42
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:22:9-42
 	android:name
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:17:19-39
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:22:19-39
 activity#com.sobatambyar.foodcourtamikom3.Register
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:18:9-46
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:23:9-46
 	android:name
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:18:19-43
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:23:19-43
 activity#com.sobatambyar.foodcourtamikom3.MainActivity
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:19:9-25:20
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:19:19-47
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:24:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
 INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\FNL Pojek ANDROID\AndroidProject\app\src\main\AndroidManifest.xml

@@ -13,14 +13,20 @@ import android.widget.Toolbar;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.util.HashMap;
+
 public class Home extends AppCompatActivity {
 
     private Toolbar toolbar;
+    SessionManager sessionManager;
+    String getId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+
 
         BottomNavigationView navigationView = findViewById(R.id.btm_nav);
 
