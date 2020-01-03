@@ -131,6 +131,16 @@ public class MainActivity extends AppCompatActivity {
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
 
+// BUAT LOGIN TANPA AKUN
+//        btn_login=(Button)findViewById(R.id.btn_login);
+//        btn_login.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent3=new Intent( MainActivity.this,Home.class);
+//                startActivity(intent3);
+//
+//            }
+//        });
     }
 }
 
@@ -323,16 +333,8 @@ public class MainActivity extends AppCompatActivity {
 //
 //        });
 //
-//        btnsignin=(Button)findViewById(R.id.btnlogin);
-//        btnsignin.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent3=new Intent( MainActivity.this,Home.class);
-//                startActivity(intent3);
-//
-//            }
-//        });
-//
+
+
 //
 //        ActionBar actionBar = getSupportActionBar();
 //        actionBar.setDisplayShowHomeEnabled(true);

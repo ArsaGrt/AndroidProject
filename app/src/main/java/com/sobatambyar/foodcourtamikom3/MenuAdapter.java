@@ -1,10 +1,12 @@
 package com.sobatambyar.foodcourtamikom3;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -50,6 +52,14 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
         name.setText(menuItem.getName());
         price.setText(menuItem.getPrice());
 
+        image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentoToMakanan = new Intent(mContext,Makanan.class);
+                mContext.startActivity(intentoToMakanan);
+            }
+        });
+
     }
 
     @Override
@@ -69,10 +79,8 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
             item_name = itemView.findViewById(R.id.item_name);
             item_price = itemView.findViewById(R.id.item_price);
 
-
-
-
         }
+
     }
 
 }
