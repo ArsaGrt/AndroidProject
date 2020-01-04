@@ -1043,6 +1043,7 @@ drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
+drawable btn_pesan
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
@@ -1223,6 +1224,7 @@ id ghost_view
 id gone
 id group_divider
 id groups
+id harga_peritem
 id home
 id homeAsUp
 id icon
@@ -1237,6 +1239,7 @@ id item_image
 id item_name
 id item_price
 id item_touch_helper_previous_elevation
+id jumlah_makanan
 id keranjang
 id labeled
 id largeLabel
@@ -1257,6 +1260,8 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id nama_makanan
+id nama_resto
 id name
 id navigation_header_container
 id never
@@ -1275,6 +1280,7 @@ id parentPanel
 id parent_matrix
 id password
 id pembelian
+id pembelian_recyclerview
 id percent
 id pin
 id profile_image
@@ -1353,6 +1359,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id total_harga
 id touch_outside
 id transition_current_scene
 id transition_layout_save
@@ -1450,6 +1457,7 @@ layout fragment_akun2
 layout fragment_beranda
 layout fragment_keranjang
 layout fragment_pembelian
+layout item_pembelian
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
